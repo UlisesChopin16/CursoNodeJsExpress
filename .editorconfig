@@ -1,0 +1,16 @@
+# Editor configuration, see https://editorconfig.org
+root = true
+
+[*] # Configuraciones aplicables a todos los archivos del proyecto
+charset = utf-8 # Juego de caracteres UTF-8
+indent_style = space # Utilizar espacios para la indentación
+indent_size = 2 # Tamaño de la indentación: 2 espacios
+insert_final_newline = true # Agregar una nueva línea al final de cada archivo
+trim_trailing_whitespace = true # Eliminar los espacios en blanco al final de cada línea
+
+[*.js] # Configuraciones específicas para archivos JavaScript
+quote_type = single # Utilizar comillas simples para las cadenas de texto en JavaScript
+
+[*.md] # Configuraciones específicas para archivos Markdown
+max_line_length = off # Desactivar la limitación de longitud máxima de línea en Markdown
+trim_trailing_whitespace = false # Mantener los espacios en blanco al final de las líneas en Markdown

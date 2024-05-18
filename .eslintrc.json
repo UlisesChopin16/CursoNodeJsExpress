@@ -1,0 +1,14 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2018 // Especifica la versión de ECMAScript utilizada (2018 en este caso)
+    },
+    "extends": ["eslint:recommended", "prettier"], // Extiende las reglas recomendadas de ESLint y añade reglas de Prettier
+    "env": {
+      "es6": true, // Habilita las características de ES6
+      "node": true, // Habilita las variables y funciones globales de Node.js
+      "jest": true // Habilita las variables y funciones globales de Jest
+    },
+    "rules": {
+      "no-console": "warn" // Advierte cuando se utiliza console.log()
+    }
+  }
